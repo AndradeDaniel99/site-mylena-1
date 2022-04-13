@@ -50,7 +50,7 @@ body {
 }
 
 .cta-button:hover {
-	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e, #f67c7c, #c684f8, #5bbcd9);
+	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e,  #c684f8, #5bbcd9);
 	background-size: 400%;
 	animation: animate 10s linear infinite;
 }
