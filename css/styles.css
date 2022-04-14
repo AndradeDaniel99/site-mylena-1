@@ -24,26 +24,24 @@ body {
 }
 
 .left {
-	flex-grow: 1;
-	font-size: 3vw;
+	font-size: 2.5vh;
 }
 
 .right {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-	flex-grow: 1;
 }
 
 .cta-button {
 	background-color: aquamarine;
 	border: none;
 	color: #008080;
-	padding: 15px 32px;
+	padding: 4vw 7vw;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 3vw;
 	border-radius: 2px;
 }
 
@@ -51,16 +49,6 @@ body {
 	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e, #c684f8, #5bbcd9);
 	background-size: 400%;
 	animation: animate 10s linear infinite;
-}
-
-@keyframes animate {
-	0% {
-		background-position: 400%;
-	}
-
-	100% {
-		background-position: 0%;
-	}
 }
 
 .anuncio {
@@ -152,15 +140,6 @@ img {
 	background-size: 400%;
 	animation: animate 10s linear infinite;
 }
-@keyframes animate {
-	0% {
-		background-position: 400%;
-	}
-
-	100% {
-		background-position: 0%;
-	}
-}
 
 .sinopse {
 	color: white;
@@ -195,32 +174,21 @@ img {
 	padding-bottom: 10vw;
 }
 
-@media only screen and (min-width: 600px) {
-	/* tablets: */
-	.left {
-		font-size: 3vw;
-	}
-
-	.anuncio {
-		padding-top: 4vw;
-		padding-bottom: 4vw;
-	}
-
-	.anuncio h1{
-		font-size: 5.5vw;
-	}
-
-	.header {
-		padding-top: 3vw;
-		padding-bottom: 3vw;
-	}
-
-}
 
 @media only screen and (min-width: 768px) {
 	/* desktop: */
 	.left {
-		font-size: 2vw;
+		font-size: 3vw;
+	}
+
+	.cta-button {
+		padding: 3vw 5vw;
+		font-size: 2.5vw;
+	}
+
+	.cta-button2 {
+		padding: 3vw 5vw;
+		font-size: 2.5vw;
 	}
 
 	.anuncio {
