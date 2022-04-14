@@ -19,12 +19,13 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 	padding-top: 7vw;
 	padding-bottom: 7vw;
 }
 
 .left {
-	font-size: 2.5vh;
+	font-size: 2vh;
 }
 
 .right {
@@ -41,7 +42,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 3vw;
+	font-size: 3.5vw;
 	border-radius: 2px;
 }
 
@@ -205,7 +206,7 @@ img {
 
 	.cta-button {
 		padding: 3vw 5vw;
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 	.cta-button2 {
