@@ -24,7 +24,6 @@ body {
 }
 
 .left {
-	//background-color: green;
 	flex-grow: 1;
 	font-size: 3vw;
 }
@@ -33,7 +32,6 @@ body {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-	//background-color: aqua;
 	flex-grow: 1;
 }
 
@@ -83,6 +81,7 @@ body {
 	font-weight: 700;
 	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d29e, #f484f8, #5bbcd9);
 	background-size: 400%;
+	background-clip: initial;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animate 27s linear infinite;
