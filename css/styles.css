@@ -50,7 +50,7 @@ body {
 }
 
 .cta-button:hover {
-	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e,  #c684f8, #5bbcd9);
+	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e, #c684f8, #5bbcd9);
 	background-size: 400%;
 	animation: animate 10s linear infinite;
 }
@@ -81,11 +81,11 @@ body {
 	font-size: 5vw;
 	text-align: center;
 	font-weight: 700;
-	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e, #f67c7c, #c684f8, #5bbcd9);
+	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d29e, #f484f8, #5bbcd9);
 	background-size: 400%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animate 20s linear infinite;
+	animation: animate 27s linear infinite;
 }
 @keyframes animate{
 	0%{
@@ -149,7 +149,7 @@ img {
 }
 
 .cta-button2:hover {
-	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d89e, #f67c7c, #c684f8, #5bbcd9);
+	background: linear-gradient(90deg, #5bbcd9, aquamarine, #f3d59e, #c684f8, #5bbcd9);
 	background-size: 400%;
 	animation: animate 10s linear infinite;
 }
