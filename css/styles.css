@@ -173,7 +173,7 @@ img {
 .sobrepost {
 	font-size: 3vw;
 	text-align: center;
-	padding-bottom: 5vw;
+	padding-bottom: 10vh;
 	padding-left: 8%;
 	padding-right: 8%;
 }
@@ -200,7 +200,8 @@ img {
 .mylimg {
 	display: flex;
 	justify-content: center;
-	padding-bottom: 4vw;
+	padding-bottom: 5vh;
+	padding-top: 3vh;
 	height: auto;
 	padding-left: 10vw;
 	padding-right: 10vw;
@@ -209,8 +210,22 @@ img {
 .footer {
 	height: 200px;
 	background-color:#013a3a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
+.footer p {
+	color: white;
+	font-size: 3vw;
+}
+
+
+@media only screen and (min-width: 550px) {
+	.left {
+		font-size: 3vw;
+	}
+}
 
 
 @media only screen and (min-width: 768px) {
