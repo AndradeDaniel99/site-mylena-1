@@ -171,11 +171,12 @@ img {
 }
 
 .sobrepost {
-	font-size: 3vw;
-	text-align: center;
+	font-size: 3.5vw;
+	text-align: justify;
 	padding-bottom: 10vh;
 	padding-left: 8%;
 	padding-right: 8%;
+	line-height: 5vw;
 }
 
 .testimony {
@@ -189,7 +190,14 @@ img {
 .testi1 {
 	padding-top: 10vw;
 	padding-bottom: 2.5vw;
+}
 
+.testi1 h2, .testi2 h2 {
+	font-weight: 300;
+}
+
+.testi1 p, .testi2 p {
+	font-weight: 700;
 }
 
 .testi2 {
@@ -208,16 +216,20 @@ img {
 }
 
 .footer {
-	height: 200px;
+	height: 300px;
 	background-color:#013a3a;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	
 }
 
 .footer p {
 	color: white;
 	font-size: 3vw;
+	width: 70%;
+	line-height: 4vw;
 }
 
 
