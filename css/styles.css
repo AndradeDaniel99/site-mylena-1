@@ -222,14 +222,16 @@ img {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	width: 100%;
 	
 }
 
 .footer p {
 	color: white;
 	font-size: 3vw;
-	width: 70%;
-	line-height: 4vw;
+	padding-left: 8%;
+	padding-right: 8%;
+	line-height: 5vw;
 }
 
 
@@ -270,6 +272,24 @@ img {
 		padding-bottom: 3vw;
 	}
 
+	.footer {
+		height: 600px;
+	}
+	.footer p {
+		font-size: 2vw;
+		line-height: 4vw;
+	}
 
 }
 
+@media only screen and (min-width: 1366px) {
+	.footer {
+		height: 800px;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	.footer {
+		height: 1000px;
+	}
+}
